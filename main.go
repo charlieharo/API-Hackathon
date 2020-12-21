@@ -7,15 +7,27 @@ import (
 	"github.com/gorilla/mux"
 )
 
-func GetPersonnasEndpoint(w http.REsponseWriter, req *http.Request){
+type Persona
 
-
+func GetPersonasEndpoint(w http.ResponseWriter, req *http.Request){
+}
+func GetPersonaEndpoint(w http.ResponseWriter, req *http.Request){	
+}
+func CreatePersonEndpoint(w http.ResponseWriter, req *http.Request){
+}
+func DeletePersonaEndpoint(w http.ResponseWriter, req *http.Request){
 }
 
-
-func ()  {
+func main()  {
 	router := mux.NewRouter()
 	
 	//endpoints
 	router.HandleFunc("/personas", getPersonasEndpoint).Methods("GET")
+	router.HandleFunc("/personas/{id}", getPersonaEndpoint).Methods("GET")
+	router.HandleFunc("/personas/{id}", CreatePersonaEndpoint).Methods("POST")
+	router.HandleFunc("/personas/{id}", DeletePersonaEndpoint).Methods("DELETE")
+
+	log.Fatal(http.ListenAndServe(":3000", router))
+
+
 }
