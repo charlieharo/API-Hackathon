@@ -4,7 +4,7 @@
 Reglas
 ● Al menos 2 participantes por equipo y máximo 3
 ● Código en Github (debe ser público)
-● Deb ocupar al menos 2 APIs de Bancos, Fintechs, Reguladores, Sistemas de
+● Debe ocupar al menos 2 APIs de Bancos, Fintechs, Reguladores, Sistemas de
 Información Financiera.
 ● El Código de servidor se debe de compilar
 ● El Código de aplicación de servidor debe ejecutarse en docker.
