@@ -1,7 +1,7 @@
 # API-Hackathon
 
 
-<!-- Reglas
+Reglas
 ● Al menos 2 participantes por equipo y máximo 3
 ● Código en Github (debe ser público)
 ● Deb ocupar al menos 2 APIs de Bancos, Fintechs, Reguladores, Sistemas de
@@ -19,4 +19,4 @@ Go
 
 Go
 
-Angular -->
+Angular
